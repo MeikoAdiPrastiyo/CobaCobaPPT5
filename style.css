@@ -1,0 +1,79 @@
+body {
+    background-color: #ddd
+}
+
+img {
+    width: 4rem;
+    height: 4rem;
+}
+
+#diceContainer img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+
+
+#rollButton {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cad3cb;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#rollButton:hover {
+    background-color: #ffffff;
+}
+
+#frequencyTableDiv {
+    width: 60%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#frequencyTableDiv table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#frequencyTableDiv table caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#frequencyTableDiv table,
+#frequencyTableDiv th,
+#frequencyTableDiv td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#frequencyTableDiv th {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+#frequencyTableDiv tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#frequencyTableDiv tr:hover {
+    background-color: #ddd;
+}
+
+#frequencyTableDiv td,
+#frequencyTableDiv th {
+    text-align: left;
+}
+
+th {
+    color: #ffffff;
+}
